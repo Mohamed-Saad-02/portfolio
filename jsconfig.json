@@ -1,7 +1,11 @@
 {
   "compilerOptions": {
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./*"],
+      "@constants/*": ["./app/_constants/*"],
+      "@components/*": ["./app/_components/*"],
+      "@services/*": ["./app/_services/*"],
+      "@validator/*": ["./app/_validator/*"]
     }
   }
 }
